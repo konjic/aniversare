@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  
+}
+.center-longText{
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color:black;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  backdrop-filter: blur(10px) saturate(70%);
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  backdrop-filter: blur(10px) saturate(70%);
+}
+
+.imagine{
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  width: 100%;
+  height: 700px; 
+}
+
+.buton{
+  display: flex;
+  justify-content: center;
+  margin-top: -50%;
+}
+
+.buton-pas{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ccc{
+  color: aliceblue;
+}
+.spookybackground{
+  background-image:    url('../public/images/hoeab-tablet.jpg');
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
+  height: 100vh;
+}
+
+input[type=text]
+{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    
+
+}
+
+.logo{
+  height: auto;
+  width: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #000000;
+}
